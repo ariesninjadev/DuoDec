@@ -1,0 +1,32 @@
+body {
+    margin: 20px;
+    background-color: #f1f1f1;
+    font-family: "Arial"
+}
+
+.card {
+    background-color: #fff;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.active {
+    background-color: #f8f5c3;
+}
+
+input {
+    width: 20%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+*,*:focus,*:hover{
+    outline:none;
+}

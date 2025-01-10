@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dozenal Math</title>
+</head>
+
+<body>
+
+    <div class="card">
+
+        <h1>Dozenal Math</h1>
+
+        <hr><br>
+
+        <p>Question:</p>
+        <p id="question" style="font-size:2em;margin:0;"></p>
+
+        <p>Answer:</p>
+        <form id="answerForm" onsubmit="submitted(event);">
+            <input type="text" id="answer" autocomplete="off"></input>
+        </form>
+
+        <br>
+
+        <div id="review">
+
+        </div>
+
+    </div>
+
+    <br>
+
+    <div class="card">
+
+        <p>Operation</p>
+        <button class="active" id="add" onclick="setType('add', this);">Add</button>
+        <button id="sub" onclick="setType('sub', this);">Sub</button>
+        <button id="mult" onclick="setType('mult', this);">Mult</button>
+
+        <br>
+
+
+        <p>Digits</p>
+        <button id="len-1" onclick="setLength(1, this);">1</button>
+        <button id="len-2" class="active" id="defDig" onclick="setLength(2, this);">2</button>
+        <button id="len-3" onclick="setLength(3, this);">3</button>
+        <button id="len-4" onclick="setLength(4, this);">4</button>
+        <button id="len-5" onclick="setLength(5, this);">5</button>
+        <button id="len-6" onclick="setLength(6, this);">6</button>
+        <button id="len-7" onclick="setLength(7, this);">7</button>
+        <button id="len-8" onclick="setLength(8, this);">8</button>
+
+    </div>
+
+    <p style="text-align:center;">Created by Aries Powvalla</p>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
